@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" media="only screen and (max-width: 768px)"  href="manejo.css">
     <title>manejo css </title>
 </head>
 
@@ -11,7 +11,10 @@
        ......................     MANEJO DE CSS Y EXPLICACION DE SUS COMPONENTES     ......................
      </h1>
       <li>
+          
+        <div class="subtitulo">
           ¿ QUE ES  CSS?
+        </div>
           <ol>
             Las siglas CSS (Cascading Style Sheets) significan «Hojas de estilo en cascada» y parten de un concepto simple pero muy potente: aplicar estilos (colores, formas, márgenes, etc...) a uno o varios documentos (generalmente documentos HTML, páginas webs) de forma masiva.
           </ol>
@@ -25,24 +28,130 @@
           </ol>
          </li>
          <li>
+             <div class="subtitulo">
           COMO SE UTILIZA CSS.......
+        </div>
              <OL>
-             CSS funciona mediante reglas que especifican exactamente el estilo de uno o varios elementos en una página.
+                  CSS funciona mediante reglas que especifican exactamente el estilo de uno o varios elementos en una página.
                  <OL>
 
                      <li>
                      lo primero que se debe hacer es enlazar nuestro hojas de CSS donde se va hacer donde se van crear todos los estilos de de unuestra pagina , con  la nustra hoja HTML sigueiendo la siguiente instruccion añadiendola en la la primera parte de su codigo HTML en la parte del HEAD
                      </li>
-                          //agrgar recuadro con "link rel="stylesheet" href="" //
-                         <div>
-                         en donde en href se va a gregar la direccion de del archivo de nuestra hoja CSS .css 
-                         </div>
-                        
-
+                        <div class="caja">"link rel="stylesheet" href="" </div>
+                         
                  </OL>
               
               </OL>
-         </li>
+                  <ol>
+                      <div class="subtitulo">
+                 LOS ATRIBUTOS ID y CLASE:
+                </div>
+                 <ol> 
+                   Los atributo se utiliza para describir un fichero o un campo de datos con más detalle. En la programación orientada a objetos, los atributos son una propiedad o característica que se puede asignar a un objeto (elemento).
+                 </ol>
+                 <OL >
+                     <div class="subtitulo">
+                         <P>
+                     ¿Que es una  ID?
+                    </div>
+                </P>
+                     <OL>
+                         
+                         Funciona como un identificador unico de un elemento HTML , solo se puede agregar a un solo elemento este ID y su estructura es la siguiente :
+                         <div class="caja"> id="   "  </div>
+                         <ol>
+                            en donde asignar  cualquier nombre dentro de la comillas
+                         </ol>
+                        </OL>
+                     
+                 <P>
+                 </OL>
+                 <ol>
+                     <div class="subtitulo">
+                    ¿Que es una CLASE?
+                </div>
+            </P>
+                 <div>
+                     <ol>
+                        Es un identificador global que nos permite asiganar una misma clase a cuelquiera o todas lo elementos  de nuetro codigo HTML y sus estructura es la siguiente : 
+                        <div class="caja"> class="     " </div>
+                        <ol>
+                            en donde asignar  cualquier nombre dentro de la comillas.
+                         </ol>
+                    </ol>
+                 </div>
+<P>
+    <ol class="subtitulo">
+                     COMO DEBE SER SU ESTRUCTURA EN UNA HOJA DE CSS
+                </ol>
+            </P>               
+                    <ol>
+                         <div class="sub">
+                            PARA LOS SELECTORES ID
+                         </div>
+                        <P>
+                        <OL>
+                            Cuando queramos asignar un selector id a un elemento HTML, lógicamente habrá que crear una regla expresa para el nombre de atributo que añadiremos a ese elemento.
+                        </OL>
+                        <DIV class="caja">
+                            <P>
+                             #rojoFuerte{
+                                color: red;
+                                font-weight: bold;
+                                }
+                            </P>
+                            <P>
+                                #amarillo{
+                                color: yellow;
+                                }
+                            </P>
+
+                        </DIV>
+
+                    </P>
+                    <p>
+                        <OL>
+                        <div class="sub">
+                            PARA LOS SELECTORES CLASS
+                        </div>
+                        <OL>
+                            <P>
+                             Su representación en la regla comienza con un punto ( . ) y debemos seguir las mismas normas de nomenclatura que con los id.
+
+                             Su uso es sencillo. En este caso todos los elementos que formen el grupo que comparte el mismo estilo tendrán el mismo nombre de atributo class.
+
+                             En cambio solo necesitaremos una regla para todos esos elementos, ya que comparten la misma clase y por tanto los mismos estilos CSS.
+                            </P>
+                            <P>
+                                <DIV class="caja">
+                                     <P>.naranja{
+                                        color: orange;
+                                        }
+                                    </P>
+                                    <P>
+
+                                    </P>
+                                        .cursiva {
+                                        font-style: oblique;
+                                        }
+                                    </P>
+                                    <P>
+                                        .destacado{
+                                        text-transform: uppercase;
+                                        font-size: 20px;
+                                        }
+                                    </P>
+
+                            </P>
+                        </OL>
+                    </OL>
+                    </p>
+                    </ol>
+                 </ol>
+              
+                  </ol>
+     </li>
       
 </body>
 </html>
