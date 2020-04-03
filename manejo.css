@@ -4,7 +4,8 @@ h1
 }
 body
 {
-background-color:springgreen;
+background-image: url("descarga.png");
+background-size: unset;
 }
 .caja { 
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
@@ -24,9 +25,22 @@ background-color:springgreen;
 .subtitulo
 {
     
-    color: red;
+    color: rgba(253, 7, 7, 0.877);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 30px;
 }
 .sub
 {
     color:yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.classt
+{
+color:rgb(190, 19, 13);
+font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 25px;
 }
