@@ -1,0 +1,44 @@
+h1 {
+    color: rgb(98, 28, 163);
+    font: 50px "Comic Sans MS";
+}
+
+h2 {
+    color: rgb(161, 110, 209);
+    font: 50px "Comic Sans MS";
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.primer-parrafo {
+    text-align: center;
+    font: 20px "Comic Sans MS";
+}
+
+.segundo-parrafo {
+    text-align: center;
+    font: 20px "Comic Sans MS";
+}
+
+.tercer-parrafo {
+    text-align: center;
+    font: 20px "Comic Sans MS";
+}
+
+.ejemplo1 {
+    text-align: center;
+    white-space: hove;
+}
+
+.lista {
+    text-align: left;
+    font-size: 20px;
+    width: 40%;
+    height: 200px;
+    border: darkblue;
+    border-style: double;
+}

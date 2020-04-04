@@ -1,0 +1,23 @@
+h1 {
+    color: rgb(19, 126, 212);
+    font: 50px "Comic Sans MS", cursive;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#contener {
+    text-align: center;
+    margin: 200px;
+}
+
+.pagina {
+    font: 30px "Comic Sans MS";
+}
+
+.imagenes {
+    text-align: center;
+}
