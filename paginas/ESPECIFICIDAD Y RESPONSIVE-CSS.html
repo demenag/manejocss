@@ -1,11 +1,10 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilos/manejo.css">
-    <title>manejo css</title>
+    <title>manejo css </title>
 </head>
 
 <body style="background-image: url('imagenes/descarga.png');">
@@ -14,21 +13,27 @@
         ...................... MANEJO DE CSS Y EXPLICACION DE SUS COMPONENTES ......................
     </h1>
 
-
+    <br>
     <div class="subtitulo">
         ¿ QUE ES CSS?
     </div>
     <ol>
-        Las siglas CSS (Cascading Style Sheets) significan «Hojas de estilo en cascada» y parten de un concepto simple pero muy potente: aplicar estilos (colores, formas, márgenes, etc...) a uno o varios documentos (generalmente documentos HTML, páginas webs)
-        de forma masiva.
+        <div class="text">
+            Las siglas CSS (Cascading Style Sheets) significan «Hojas de estilo en cascada» y parten de un concepto simple pero muy potente: aplicar estilos (colores, formas, márgenes, etc...) a uno o varios documentos (generalmente documentos HTML, páginas webs)
+            de forma masiva.
     </ol>
+    </div>
     <ol>
-        Consiste en un grupo de reglas que los navegadores web interpretan y de acuerdo a lo especificado, representan el contenido de la página. Se ha convertido en casi un arte, mediante el cual se pueden crear millones de combinaciones posibles, siendo posible
-        expresar visualmente en una página el estilo del gusto de su creador.
+        <div class="text">
+            Consiste en un grupo de reglas que los navegadores web interpretan y de acuerdo a lo especificado, representan el contenido de la página. Se ha convertido en casi un arte, mediante el cual se pueden crear millones de combinaciones posibles, siendo posible
+            expresar visualmente en una página el estilo del gusto de su creador.
     </ol>
+    </div>
     <ol>
-        Mediante CSS se pueden configurar muchos parámetros, entre ellos el color, el tamaño, la posición, el formato del texto, posicionar cualquier elemento, definir la estructura de un documento de acuerdo al ancho de la ventana del navegador del lector, etc.
-        Esta página es un sencillo y básico tutorial del empleo del CSS.
+        <div class="text">
+            Mediante CSS se pueden configurar muchos parámetros, entre ellos el color, el tamaño, la posición, el formato del texto, posicionar cualquier elemento, definir la estructura de un documento de acuerdo al ancho de la ventana del navegador del lector, etc.
+            Esta página es un sencillo y básico tutorial del empleo del CSS.
+        </div>
     </ol>
     </li>
     <li>
@@ -36,12 +41,17 @@
             COMO SE UTILIZA CSS.......
         </div>
         <OL>
-            CSS funciona mediante reglas que especifican exactamente el estilo de uno o varios elementos en una página.
+            <div class="text">
+                CSS funciona mediante reglas que especifican exactamente el estilo de uno o varios elementos en una página.</div>
+
             <OL>
 
+
                 <li>
-                    lo primero que se debe hacer es enlazar nuestro hojas de CSS donde se va hacer donde se van crear todos los estilos de de unuestra pagina , con la nustra hoja HTML sigueiendo la siguiente instruccion añadiendola en la la primera parte de su codigo HTML
-                    en la parte del HEAD
+                    <div class="text">
+                        lo primero que se debe hacer es enlazar nuestro hojas de CSS donde se va hacer donde se van crear todos los estilos de de unuestra pagina , con la nustra hoja HTML sigueiendo la siguiente instruccion añadiendola en la la primera parte de su codigo HTML
+                        en la parte del HEAD
+                    </div>
                 </li>
                 <div class="caja">"link rel="stylesheet" href="" </div>
 
@@ -53,8 +63,10 @@
                 LOS ATRIBUTOS ID y CLASE:
             </div>
             <ol>
-                Los atributo se utiliza para describir un fichero o un campo de datos con más detalle. En la programación orientada a objetos, los atributos son una propiedad o característica que se puede asignar a un objeto (elemento).
+                <div class="text">
+                    Los atributo se utiliza para describir un fichero o un campo de datos con más detalle. En la programación orientada a objetos, los atributos son una propiedad o característica que se puede asignar a un objeto (elemento).
             </ol>
+            </div>
             <OL>
                 <div class="subtitulo">
                     <P>
@@ -62,12 +74,14 @@
                 </div>
                 </P>
                 <OL>
-
-                    Funciona como un identificador unico de un elemento HTML , solo se puede agregar a un solo elemento este ID y su estructura es la siguiente :
-                    <div class="caja"> id=" " </div>
-                    <ol>
-                        en donde asignar cualquier nombre dentro de la comillas
-                    </ol>
+                    <p>
+                        <div class="text>" Funciona como un identificador unico de un elemento HTML , solo se puede agregar a un solo elemento este ID y su estructura es la siguiente :</p></div>
+                        <div class="caja"> id=" " </div>
+                        <ol>
+                            <div class="text">
+                                en donde asignar cualquier nombre dentro de la comillas
+                            </div>
+                        </ol>
                 </OL>
 
                 <P>
@@ -79,11 +93,16 @@
                 </P>
                 <div>
                     <ol>
-                        Es un identificador global que nos permite asiganar una misma clase a cuelquiera o todas lo elementos de nuetro codigo HTML y sus estructura es la siguiente :
+                        <p>
+                            <div class="text">
+                                Es un identificador global que nos permite asiganar una misma clase a cuelquiera o todas lo elementos de nuetro codigo HTML y sus estructura es la siguiente : </p>
+                        </div>
                         <div class="caja"> class=" " </div>
                         <ol>
-                            en donde asignar cualquier nombre dentro de la comillas.
+                            <div class="text">
+                                en donde asignar cualquier nombre dentro de la comillas.
                         </ol>
+                        </div>
                     </ol>
                 </div>
                 <P>
@@ -97,8 +116,10 @@
                     </div>
                     <P>
                         <OL>
-                            Cuando queramos asignar un selector id a un elemento HTML, lógicamente habrá que crear una regla expresa para el nombre de atributo que añadiremos a ese elemento.
+                            <div class="text">
+                                Cuando queramos asignar un selector id a un elemento HTML, lógicamente habrá que crear una regla expresa para el nombre de atributo que añadiremos a ese elemento.
                         </OL>
+                        </div>
                         <DIV class="caja">
                             <P>
                                 #rojoFuerte{ color: red; font-weight: bold; }
@@ -117,9 +138,11 @@
                             </div>
                             <OL>
                                 <P>
-                                    Su representación en la regla comienza con un punto ( . ) y debemos seguir las mismas normas de nomenclatura que con los id. Su uso es sencillo. En este caso todos los elementos que formen el grupo que comparte el mismo estilo tendrán el mismo nombre
-                                    de atributo class. En cambio solo necesitaremos una regla para todos esos elementos, ya que comparten la misma clase y por tanto los mismos estilos CSS.
+                                    <div class="text">
+                                        Su representación en la regla comienza con un punto ( . ) y debemos seguir las mismas normas de nomenclatura que con los id. Su uso es sencillo. En este caso todos los elementos que formen el grupo que comparte el mismo estilo tendrán el mismo nombre
+                                        de atributo class. En cambio solo necesitaremos una regla para todos esos elementos, ya que comparten la misma clase y por tanto los mismos estilos CSS.
                                 </P>
+                                </div>
                                 <P>
                                     <div class="caja">
                                         <P>.naranja{ color: orange; }
@@ -144,8 +167,10 @@
                         </div>
                         <p>
                             <ol>
-                                Existen numerosas propiedades que pueden controlarse con CSS. No vamos a listar todos de forma exhaustiva, pero sí vamos a presentar algunas destacados de uso habitual.
+                                <div class="text">
+                                    Existen numerosas propiedades que pueden controlarse con CSS. No vamos a listar todos de forma exhaustiva, pero sí vamos a presentar algunas destacados de uso habitual.
                             </ol>
+                            </div>
                         </p>
                     </p>
                     <li>
@@ -154,8 +179,10 @@
                                 FUENTES:
                             </div>
                             <p>
-                                se puede encontrar el tipo de letra, grosor , tamaño y estilo que se desea utilizar
+                                <div class="text">
+                                    se puede encontrar el tipo de letra, grosor , tamaño y estilo que se desea utilizar
                             </p>
+                            </div>
                         </p>
                         <p>
                             <div class="caja">
@@ -302,6 +329,188 @@
     </ol>
     </div>
     </ol>
+    <p>
+        <ol>
+            <div class="sub">
+                QUE ES CSS MEDIA QUERIES
+
+            </div>
+            <P>
+                <div class="text">
+                    Es un contenido de CSS que permite adaptar el contenido de una pagina web a las cartateristicas de la resolucion de cualquier dipositivo
+            </P>
+            </div>
+            <p>
+                <div class="caja">
+                    <p>
+                        @media (orientation:landscape) {
+                        <p>body</p>
+                        <p>{</p>
+                        <p>background-image:url(archivo.jpg);</p>
+                        <p>}</p>
+                        <p>}</p>
+                        <p> @media (orientation:portrait)</p>
+                        <p>{</p>
+                        <p>body</p>
+                        <p>{</p>
+                        <p>background-image:url(archivo-pantalla-en-vertical.jpg);</p>
+                        <p>}</p>
+                        <p>}</p>
+                    </p>
+
+                </div>
+                <p>
+                    <div class="text">
+                        en este ejemplo es útil para definir estilos en función de la orientación, lo que resulta especialmente adecuado para el diseño para móviles.
+                </p>
+                </div>
+
+            </p>
+
+
+        </ol>
+        <ol>
+            <p>
+                <div class="sub">
+                    QUE ES CSS PSEUDO-ELEMENTS Y PSEUDO-CLASS
+                </div>
+            </p>
+            <P>
+                <div class="text">
+                    Las hojas de estilo asocian características de estilo a los elementos basándose en las etiquetas de los elementos y en su posición relativa (en el árbol del documento). Las PSEUDO-CLASS y los PSEUDO-ELEMENTS permiten hacer referencia a determinados elementos
+                    sin basarse en la información contenida en el árbol del documento.
+            </P>
+            <p>
+                La diferencia entre PSEUDO-CLASS y PSEUDO-ELEMENTS es sutil. En general, los pseudo-elementos suelen hacer referencia a determinadas partes de un elemento, mientras que las pseudo-clases suelen hacer referencia al estado del elemento.
+            </p>
+            </div>
+            <li>
+                <p>
+                    <div class="sub">
+                        PSEUDO-CLASS
+
+                    </div>
+                </p>
+                <p>
+                    <div class="text">
+                        Hace referencia al primer elemento de un tipo contenido dentro de otro.
+                </p>
+                </div>
+                <p>
+                    <div class="caja">
+                        <p>
+                            <p>div {</p>
+                            <p>border: blue 2px solid;</p>
+                            <p>margin: 15px;</p>
+                            <p> padding: 15px;</p>
+                            <p> }</p>
+
+                            <p>div p:first-child {</p>
+                            <p>color: red;</p>
+                            <p>}</p>
+                        </p>
+                    </div>
+                </p>
+                <p>
+
+                </p>
+            </li>
+            <li>
+                <p>
+                    <div class="sub">
+                        PSEUDO-ELEMENT
+                    </div>
+                </p>
+                <p>
+                    <div class="text">
+                        El PSEUDO-ELEMENT "::first-letter" permite especificar el aspecto de la primera letra de texto.
+                </p>
+                </div>
+                <P>
+                    <DIV class="caja">
+                        <p>p::first-letter {</p>
+                        <p>color: green;</p>
+                        <p>}</p>
+
+                    </DIV>
+                </P>
+            </li>
+            <li>
+                <p>
+                    <div class="sub">QUE ES CSS GRID</div>
+
+                </p>
+
+                <p>
+                    <div class="text"></div>
+                    Es una extenncion de CSS quue nos permite añadir mejoras y características que permiten crear rápidamente cuadrículas sencillas y potentes de forma prácticamente instantánea. Como lo podemos definir de la siguiente manera.
+                    <p>
+                        </div>
+                        <ol>
+                            <div class="text">
+                                Contenedor: Existe un elemento padre que es el contenedor que definirá la cuadrícula o rejilla.
+                        </ol>
+                        </div>
+                    </p>
+                    <p>
+                        <ol>
+                            <div class="text">
+                                Línea (grid line): Separador horizontal o vertical de las celdas de la cuadrícula.
+                        </ol>
+                        </div>
+                    </p>
+                    <p>
+                        <ol>
+                            <div class="text">
+                                Banda (grid track): Banda horizontal o vertical de celdas de la cuadrícula.
+                        </ol>
+                        </div>
+                    </p>
+                    <p>
+                        <ol>
+                            <div class="text">
+                                Area (grid area): Región o conjunto de celdas de la cuadrícula.
+                        </ol>
+                        </div>
+                    </p>
+                    <p>
+                        <ol>
+                            <div class="text">
+                                Celda (grid cell): Cada uno de los cuadritos (unidad mínima) de la cuadrícula.
+                        </ol>
+                        </div>
+                    </p>
+                </p>
+                <p>
+                    <div class="caja">
+                        <p> div class="grid"
+                            <!-- contenedor -->
+                        </p>
+                        <p> div class="a"Item 1 /div
+                            <!-- cada uno de los ítems del grid -->
+                        </p>
+                        <p> div class="b" Item 2/div </p>
+                        <p> div class="c" Item 3 /div </p>
+                        <p> div class="d" Item 4 /div </p>
+                        <p> /div </p>
+                    </div>
+                    <p>
+                        <div class="text">
+                            Para activar la cuadrícula grid hay que utilizar sobre el elemento contenedor la propiedad display y especificar el valor grid o inline-grid. Este valor influye en como se comportará la cuadrícula con el contenido exterior. El primero de ellos permite
+                            que la cuadrícula aparezca encima/debajo del contenido exterior (en bloque) y el segundo de ellos permite que la cuadrícula aparezca a la izquierda/derecha (en línea) del contenido exterior.
+
+                        </div>
+                    </p>
+                </p>
+
+            </li>
+
+
+        </ol>
+
+
+
+    </p>
 
 
 </body>
