@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agregar elementos al DOM</title>
+    <link rel="stylesheet" href="/document-DOM.css" />
+  </head>
+  <body>
+    <h1 class="h1">Agregar elementos al DOM</h1>
+    <br />
+    <br />
+
+    <h2 class="h2">El objeto de documento DOM HTML</h2>
+    <p class="p">
+      El objeto del documento representa su página web. Si desea acceder a
+      cualquier elemento en una página HTML, siempre comience por acceder al
+      objeto del documento. A continuación se muestran algunos ejemplos de cómo
+      puede usar el objeto del documento para acceder y manipular HTML.
+    </p>
+    <h2 class="h2">Encontrar elementos Html</h2>
+    <div id="main">
+      <table>
+        <thead>
+          <tr>
+            <th>metodo</th>
+            <th>descripcion</th>
+          </tr>
+        </thead>
+        <tr>
+          <th>document.getElementById(id)</th>
+          <th>encuentra un elemento por ID</th>
+        </tr>
+        <tr>
+          <th>document.getElementsByTagName(name)</th>
+          <th>encuentra el elemento por el nombre de etiqueta</th>
+        </tr>
+        <tr>
+          <th>document.getElementsByClassName(name)</th>
+          <th>encuentra el elemento por el nombre de la clase</th>
+        </tr>
+      </table>
+    </div>
+    <h2 class="h2">cambiar elementos de Html</h2>
+    <div id="main">
+      <table>
+        <thead>
+          <tr>
+            <th>propiedad</th>
+            <th>descripcion</th>
+          </tr>
+        </thead>
+        <tr>
+          <th>element.innerHTML = nuevo contenido html</th>
+          <th>cambia el contenido interno html</th>
+        </tr>
+        <tr>
+          <th>element.attribute = nuevo valor</th>
+          <th>cambia el valor del atributo de un elemento html</th>
+        </tr>
+        <tr>
+          <th>element.style.property = nuevo estilo</th>
+          <th>cambia el estilo de un elemento html</th>
+        </tr>
+      </table>
+    </div>
+    <h2 class="h2">Agregar y eliminar elementos</h2>
+    <div id="main">
+      <table>
+        <thead>
+          <tr>
+            <th>metodo</th>
+            <th>descripcion</th>
+          </tr>
+        </thead>
+        <tr>
+          <th>document.createElement(element)</th>
+          <th>crea un elemento en html</th>
+        </tr>
+        <tr>
+          <th>document.removeChild(element)</th>
+          <th>quita un elemto html</th>
+        </tr>
+        <tr>
+          <th>document.appendChild(element)</th>
+          <th>agrega un elemento html</th>
+        </tr>
+        <tr>
+          <th>document.replaceChild(new, old)</th>
+          <th>remplaza un elemento html</th>
+        </tr>
+        <tr>
+          <th>document.write(text)</th>
+          <th>escribe en la secuencia de salida html</th>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
