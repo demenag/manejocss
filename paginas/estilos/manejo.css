@@ -1,0 +1,44 @@
+h1 {
+    color: salmon;
+}
+
+body {
+    background-size: unset;
+}
+
+.caja {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    background: #6d6f72;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 15px 0px 5px 0px;
+    -moz-border-radius: 15px 0px 15px 0px;
+    -webkit-border-radius: 15px 0px 15px 0px;
+    border: 2px solid #00030a;
+}
+
+.subtitulo {
+    color: rgba(253, 7, 7, 0.877);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.sub {
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.classt {
+    color: rgb(190, 19, 13);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 25px;
+}
